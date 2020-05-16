@@ -34,6 +34,6 @@ body{
 {
     .hero__svg{zoom: 0.5; margin-left:2%;
 margin-right:auto;}
-    .choose{visibility: hidden}
+    .choose{visibility: hidden;}
 
 }
