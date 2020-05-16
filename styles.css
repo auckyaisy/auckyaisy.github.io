@@ -32,8 +32,7 @@ body{
 }
 @media (max-width: 640px)
 {
-    .hero__svg{zoom: 0.5; margin-left:2%;
-margin-right:auto;}
+    .hero__svg{zoom: 0.5; margin-left:2%; margin-right:auto;}
     .choose{visibility: hidden;}
 
 }
