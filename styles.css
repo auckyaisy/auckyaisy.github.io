@@ -1,0 +1,50 @@
+body{
+    background-color: #14242c;
+}
+.choose{
+    margin: auto;
+    color: black;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    display: flex;
+}
+.hero__svg{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    display: flex;
+}
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+.btn-toolbar{
+    margin-right: 15px;
+}
+
+@media (max-width: 640px)
+{
+    .hero__svg{zoom: 0.5; margin-left:2%; margin-right:auto;}
+    .choose{visibility: hidden;}
+
+}
+
+/*@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {*/
+/*     .hero__svg{width:200%;}*/
+/*     .choose{width: 200%;}*/
+/*}*/
+
+/*@media only screen and (device-width : 411px) and (device-height : 823px) {*/
+/*     .hero__svg{width:200%;}*/
+/*     .choose{width: 200%;}*/
+/*}*/
+
