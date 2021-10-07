@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hahaha</title>
+</head>
+<body>
+    oi tak
+    liat deh
+    :p
+    <button onclick="addimage();" id="pencetan">press me</button>
+    <br>
+    <p id="p"></p>
+</body>
+
+<script>
+    const btn = document.getElementById('pencetan');
+        
+
+    btn.addEventListener('click', function () {
+       document.getElementById("p").innerHTML += " kon medhok medhok aee!" + "<br>";
+
+    });
+
+     function addimage() {
+            var img = document.createElement("img");
+            img.src = "foto.jpg";
+            img.height =500;
+            img.width = 500;
+
+            //optionally set a css class on the image
+            var class_name = "foo";
+            img.setAttribute("class", class_name);
+
+            document.body.appendChild(img);
+        }
+</script>
+
+</html>
