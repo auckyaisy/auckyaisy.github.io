@@ -1,10 +1,10 @@
 body{
-    background-color: #14242c;
+    background-color: #112852;
 }
 .choose{
     margin: auto;
     color: black;
-    position: absolute;
+    position: Absolute;
     top: 60%;
     left: 50%;
     margin-right: -50%;
@@ -13,9 +13,11 @@ body{
     display: flex;
 }
 .hero__svg{
+    fill: white;
     position: absolute;
-    top: 45%;
+    top: 43%;
     left: 50%;
+    /* width: 100px; */
     margin-right: -50%;
     transform: translate(-50%, -50%);
     align-items: center;
@@ -27,13 +29,34 @@ body{
     display:inline-block;
 }
 
+button.btn.btn-outline-light {
+    border-radius: 17px;
+}
+
+.btn-outline-light,
+
+.btn-outline-light:visited {
+    border-color: #87DDFD;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:active,{
+    background-color: #2D6CDF !important;
+}
+
+
 .btn-toolbar{
     margin-right: 15px;
 }
 
 @media (max-width: 640px)
 {
-    .hero__svg{zoom: 0.5; margin-left:2%; margin-right:auto;}
+    .hero__svg {
+        top: 50%;
+        zoom: 0.5;
+        margin-left: 2%;
+        margin-right: auto;
+    }
     .choose{visibility: hidden;}
 
 }
